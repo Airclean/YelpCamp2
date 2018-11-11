@@ -14,7 +14,9 @@ var flash = require("connect-flash");
 var campRoute = require("./routes/campgrounds.js"),
     commentRoute = require("./routes/comments.js"),
     authenticationRoute = require("./routes/authentication.js");
-mongoose.connect('mongodb://Airclean:HuiHui1026$$@ds161823.mlab.com:61823/yelpcamping', { useNewUrlParser: true });
+
+mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
+// mongoose.connect('mongodb://localhost:27017/Yelp', { useNewUrlParser: true });
 //APP CONFIG
 app.set("view engine", "ejs");
 app.use(flash());
