@@ -1,0 +1,79 @@
+img {
+    width: 100%;
+}
+
+#index {
+    margin-top: 20px;
+}
+
+.notification {
+    margin-top: 20px;
+}
+
+.info>li>a {
+    color: black;
+}
+
+.info {
+    position: fixed;
+}
+
+#navbar {
+    margin-bottom: 0px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#deleteForm {
+    display: inline;
+}
+
+.login {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.login h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.register {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.register h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.register_background {
+    background: #F1F2B5;
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+    background: linear-gradient(to right, #135058, #F1F2B5);
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.login_background {
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 1000px;
+}

@@ -1,0 +1,22 @@
+<% include ./partials/header.ejs%>
+<div class="register_background">
+    <div class="container">
+        <div class="register">
+            <h1>Registration</h1>
+            <form method="POST" action="/register">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="username" placeholder="Please write your username here">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="password" placeholder="Please write your password here">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-success btn-block">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<% include ./partials/footer.ejs%>
