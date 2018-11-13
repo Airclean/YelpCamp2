@@ -66,11 +66,11 @@
         center: center,
         scrollwheel: false
     });
-    var contentString = 
+    var contentString = `
       <strong><%= campground.name %><br />
       <%= campground.location %></strong>
       <p><%= campground.description %></p>
-    
+    `
     var infowindow = new google.maps.InfoWindow({
       content: contentString
     });
