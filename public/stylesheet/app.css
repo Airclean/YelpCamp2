@@ -2,6 +2,13 @@ img {
     width: 100%;
 }
 
+/* Google Maps */
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 #index {
     margin-top: 20px;
 }
@@ -15,6 +22,7 @@ img {
 }
 
 .info {
+    width: 18%;
     position: fixed;
 }
 
