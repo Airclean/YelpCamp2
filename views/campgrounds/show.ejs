@@ -23,7 +23,7 @@
                     <p><em>Created by <%=campground.author.username%>,<%=moment(campground.created).fromNow()%></em></p>
                     <% if(currentUser&&currentUser.id==campground.author.id){%>
                         <a class="btn btn-warning" href="/campgrounds/<%=campground._id%>/edit">Edit Camp</a>
-                        <form id="deleteForm" method="POST" action="/campgrounds/<%=campground._id%>?_method=DELETE">
+                        <form id="deleteForm" method="POST" action="/campgrounds/<2%=campground._id%>?_method=DELETE">
                             <button class="btn btn-danger">Delete</button>
                         </form>   
                     <% }%>
@@ -83,5 +83,5 @@
     });
   }
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaig99McvKm5jPgS9oKO15M5lHbFmHcrg&callback=initMap"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV4-GpPyqa2ZKRNBtmu3rSafI2YdQm2No&callback=initMap"></script>
 <% include ../partials/footer%>
